@@ -114,9 +114,9 @@ For more detail, see Installation below. (Sadly, GitHub's Markdown lacks interna
 
 * Still as `root`, replace your node's Puppet configuration with `git clone`:
 
+        rm -rf /etc/puppet/*
+        git clone git://github.com/ewanleith/puppet-wp-micro.git /etc/puppet/
         cd /etc/puppet
-        rm -rf * # eek!
-        git clone git://github.com/garthk/puppet-wp-micro.git
 
 * Secure your clone by changing the shipped passwords and other keys:
 
